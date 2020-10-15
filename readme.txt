@@ -3,3 +3,7 @@
 nvidia driver version: 440.33.01
 libcudnn7/bilinmeyen,now 7.6.5.32-1+cuda10.0
 cuda-toolkit 10.0
+
+
+!!!!!
+just type "conda install tensorflow-gpu". it installs everything you need
