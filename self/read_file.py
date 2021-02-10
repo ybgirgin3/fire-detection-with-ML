@@ -1,6 +1,7 @@
 import cv2
 
-tensorf = cv2.dnn.readNetFromTensorflow('saved_model.pb')
+# tensorf = cv2.dnn.readNetFromTensorflow('saved_model.pb',  'graph.pbtxt')
+tensorf = cv2.dnn.readNet('saved_model.pb')
 
 img = cv2.imread('lighter.jpg')
 rows, cols, channels = img.shape
